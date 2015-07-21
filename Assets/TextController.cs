@@ -95,9 +95,9 @@ public class TextController : MonoBehaviour {
 	
 	void state_slippers () {
 		text.text = "The slippers are the only thing that's not salmon. They seem so comfy and warm. Like " +
-					"a sweet, soft furry cat. A flat cat one would walk on.\n\n" +
+				"a sweet, soft furry cat. A flat cat one would walk on.\n\n" +
 		
-					"<b>Press T to take slippers or R to go back to your room.</b>";
+				"<b>Press T to take slippers or R to go back to your room.</b>";
 		
 		if (Input.GetKeyDown (KeyCode.T))			{item_slippers = true; myState = States.room;}
 		else if (Input.GetKeyDown (KeyCode.R))			{myState = States.room;}
@@ -401,7 +401,7 @@ public class TextController : MonoBehaviour {
 	}
 	
 	void state_reception () {
-		text.text = "The reception is a small cabin with a glass directly contemplating the entrance of the " +
+		text.text = "The reception is a small cabin with a glass with direct view on the entrance of the " +
 				"building. There's barely enough room for a desk and a computer.\n\n";
 	
 		// Player haven't distracted the nurse.
