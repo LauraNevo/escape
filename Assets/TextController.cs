@@ -172,7 +172,7 @@ public class TextController : MonoBehaviour {
 	}
 	
 	void state_drawers () {
-			text.text = "Someone have forgotten to lock the counter drawers tonight. Unfortunately, " +
+			text.text = "Someone has forgotten to lock the counter drawers tonight. Unfortunately, " +
 					"it seems someone got there before you. They are frustratingly empty. Damn it! \n\n";
 			
 			// Only if player has met Teresa in the lift already.
@@ -194,7 +194,7 @@ public class TextController : MonoBehaviour {
 		// Only happens once.
 		text.text = "Wait a second... Your hand brushes past something. It feels like paper. After a quick " +
 				"inspection, you discover a piece of newspaper taped to the top of the drawer. This old goat " +
-				"managed to hid her stuff away from Bill. A good hiding spot you'd remember if you " +
+				"managed to hide her stuff away from Bill. A good hiding spot you'd remember if you " +
 				"were planning on spending a minute more in this place.\n\n" +
 				
 				"<b>Press T to take the crosswords or C to go back to the corridor.</b>";
@@ -207,10 +207,10 @@ public class TextController : MonoBehaviour {
 	
 		// Player cannot go further before sorting out problem.
 		if (event_lift_blocked) {
-			text.text = "An old lady in a wheelchair in inside the lift, blocking the access " +
+			text.text = "An old lady in a wheelchair is inside the lift, blocking the access " +
 					"to the buttons. It's old Teresa. She's pretty resilient and won't " +
 					"move until she wants to. You have a vague memory of her fighting for " +
-					"the latest newspaper with old Bill. \n\n";
+					"the last newspaper with old Bill. \n\n";
 					
 			if (item_crosswords) {
 				text.text = text.text + "<b>Press G to give the crossword and C to go back to the corridor.</b>";
@@ -269,7 +269,7 @@ public class TextController : MonoBehaviour {
 		text.text = "Teresa rolls forwards, as if she felt the object of her interest right away. " +
 				"She leaves the lift as fast as she can (not very fast) and forcefully gives you " +
 				"what she was holding: a pot of cranberry sauce. You don't feel like you can " +
-				"refuse. You guess that's what grandchildren feel when given another another plate " +
+				"refuse. You guess that's what grandchildren feel when given another plate " +
 				"of Brussels sprouts.\n\n" +
 					
 				"Oh well, it's barely open. Could be an important resource when you're out of here. " +
@@ -287,7 +287,7 @@ public class TextController : MonoBehaviour {
 	
 	void state_hall () {
 		text.text = "The hall floor consists of a very large room. During the day, many people come and go. " +
-				"From nursing pushing residents wheelchairs, deliveries, people using the phones and " +
+				"From nurses pushing residents wheelchairs, deliveries, people using the phones and " +
 				"sometimes a few visits from relatives.\n\n" +
 					
 				"The reception room is right by the entrance and always occupied by the nurse on duty. " +
@@ -306,8 +306,8 @@ public class TextController : MonoBehaviour {
 	void state_tea_room () {
 		text.text = "Contrasting with the rest of the hall and corridors, the tea room is very colourful. " +
 				"Very. As if the interior designer got only one directive : 'PLEASE MAKE IT POP'. " +
-				"That or the owner's 6 year old nephew had an 'eye for design'. Everything is bright " +
-				"and orange, and purple, and sky blue. Pictures of the residents in 'forced fun' " +
+				"That or the owner's 6 year old nephew had an 'eye for design'. Everything is bright, " +
+				"orange, purple and sky blue. Pictures of the residents in 'forced fun' " +
 				"activities are displayed everywhere on the wall. You see yourself on the wall, with a " +
 				"ridiculous paper hat.\n\n";
 		
@@ -375,7 +375,7 @@ public class TextController : MonoBehaviour {
 					"tickets to Jersey, and we can't fix your toilet leak. Please don't call " +
 					"back. *click*</i>\n\n" +
 						
-					"How rude! If you had time, you would fill a complaint to her manager. Anyway, " +
+					"How rude! If you had time, you would file a complaint with her manager. Anyway, " +
 					"what were you doing already...?\n\n" +
 				
 					"<b>Press P to carry on phoning or H to go back to the hall.</b>";
